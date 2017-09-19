@@ -1,0 +1,12 @@
+Purpose: Crawler được dữ liệu về các từ khóa trên mạng xã hội facebook và tiến hành phân tích dữ liệu để tìm ra quan điểm của người dùng trên mạng xã hội về các từ khóa đó
+
+Process:
+	- Tìm những nhóm, trang facebook có liên quan tới từ khóa cần phân tích. Tham gia vào các nhóm đó, phân tích sơ bộ về dữ liệu về các nhóm đó
+	- Thực hiện chọn ra những nhóm, trang tốt nhất về những từ khóa. Phân tích về cấu trúc của trang, nhóm
+	- Tiến hành viết code để crawler được dữ liệu trên những trang, nhóm đó. Lưu những dữ liệu được crawl (dữ liệu thô) vào cơ sở dữ liệu không quan hệ (MongoDb). --> Thiết kế cỡ sở dữ liệu để lưu dữ liệu
+	- Tiến hành phân tích (người phân tích) trên những dữ liệu đã được crawler, sau đó đưa ra các nhận xét về dữ liệu đó.
+	- Thiết kế và tìm ra các thuật toán phân tích dữ liệu để áp dụng cho các từ khóa.
+	- Implement thuật toán trên python (hoặc ngôn ngữ phù hợp)
+	- Test kết quả thuật toán trên bộ dữ liệu test
+	- Viết kết quả, báo cáo, làm poster
+	- Ứng dụng kết quả thuật toán cho 1 ứng dụng cụ thể
